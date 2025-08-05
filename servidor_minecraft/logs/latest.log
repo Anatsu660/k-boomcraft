@@ -1,5 +1,5 @@
-[22:11:10] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.16.14
-[22:11:11] [main/INFO]: Loading 159 mods:
+[23:17:58] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.16.14
+[23:17:58] [main/INFO]: Loading 159 mods:
 	- advancednetherite 2.3.0-1.21.7
 	- appleskin 3.0.6+mc1.21.6
 	- architectury 17.0.8
@@ -182,125 +182,78 @@
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
 	- yosbr 0.1.2
-[22:11:11] [main/INFO]: Applying default options... (YOSBR)
-[22:11:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/k-boomcraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:11:11] [main/INFO]: Compatibility level set to JAVA_21
-[22:11:11] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:11:11] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:11:11] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[22:11:11] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[22:11:11] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:11:11] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:11:12] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
-[22:11:12] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
-[22:11:12] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[22:11:12] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[22:11:12] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.4).
-[22:11:22] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[22:11:22] [main/INFO]: Loading Collective version 8.4.
-[22:11:22] [main/INFO]: Initialized entity types.
-[22:11:22] [main/INFO]: Register Custom Payloads for Networking.
-[22:11:22] [main/INFO]: Enabled 58 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-82263, MC-84661, MC-88371, MC-89146, MC-93018, MC-94054, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-123450, MC-123605, MC-129909, MC-132878, MC-134110, MC-136249, MC-139041, MC-147659, MC-147784, MC-155509, MC-159283, MC-160095, MC-168573, MC-170462, MC-176806, MC-177831, MC-179072, MC-183990, MC-187100, MC-199467, MC-200418, MC-201374, MC-202637, MC-206922, MC-215530, MC-219981, MC-221257, MC-223153, MC-224729, MC-226961, MC-227008, MC-227337, MC-231743, MC-232869, MC-245394, MC-267125, MC-268617, MC-271899, MC-272431, MC-297837, MC-298066, MC-299115]
-[22:11:22] [main/INFO]: Successfully Debugify'd your game!
-[22:11:22] [main/INFO]: Constructing components for easymagic:common
-[22:11:22] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[22:11:23] [main/INFO]: Loaded config farmersdelight-common.json
-[22:11:23] [main/INFO]: Reflections took 260 ms to scan 2 urls, producing 12 keys and 155 values
-[22:11:24] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[22:11:25] [main/INFO]: Constructing components for leavesbegone:common
-[22:11:26] [main/INFO]: Definitely not up to no good
-[22:11:26] [main/INFO]: register Mod Nether Ores Blocksnether_ores_reborn
-[22:11:26] [main/INFO]: Registering Ruby Items for nether_ores_reborn
-[22:11:26] [main/INFO]: [STDOUT]: All 40 have been set properly
-[22:11:26] [main/INFO]: Registering Item Groups for onlyhammersandexcavators
-[22:11:26] [main/INFO]: Here at Wisp Forest© we employ Wisp Tech Support™ magic, which solves your problem when you ask
-[22:11:26] [main/INFO]: [PatPat]: PatPat Initialized
-[22:11:26] [main/INFO]: Constructing components for puzzleslib:common
-[22:11:26] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
-[22:11:26] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[22:11:26] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[22:11:26] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[22:11:26] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[22:11:26] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[22:11:26] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[22:11:26] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[22:11:26] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[22:11:26] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[22:11:26] [main/INFO]: Registering blocks for storagedelight
-[22:11:26] [main/INFO]: Registering block entity types for storagedelight
-[22:11:26] [main/INFO]: Registering furniture fuels for storagedelight
-[22:11:26] [main/INFO]: Registering creative mode tab for storagedelight
-[22:11:26] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[22:11:26] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[22:11:26] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[22:11:26] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[22:11:26] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[22:11:26] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[22:11:26] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[22:11:26] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[22:11:26] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[22:11:26] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[22:11:26] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[22:11:27] [main/INFO]: [PatPat/Dedicated]: Successfully loaded PatPat language files!
-[22:11:27] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22:11:27] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[22:11:27] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:11:27] [main/INFO]: Generating SERVER_DATA resources
-[22:11:27] [main/INFO]: Collected 0 data resources in 5.085298ms
-[22:11:29] [main/INFO]: Loaded 3776 recipes
-[22:11:29] [main/INFO]: Loaded 3173 advancements
-[22:11:29] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
-[22:11:30] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[22:11:30] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[22:11:31] [main/INFO]: Applied 656 biome modifications to 131 of 133 new biomes in 184.0 ms
-[22:11:31] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[22:11:31] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
-[22:11:31] [Server thread/INFO]: Loading server configs...
-[22:11:31] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[22:11:31] [Server thread/INFO]: Loading properties
-[22:11:31] [Server thread/INFO]: Default game type: SURVIVAL
-[22:11:31] [Server thread/INFO]: Generating keypair
-[22:11:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:11:31] [Server thread/INFO]: Using epoll channel type
-[22:11:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:11:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:11:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:11:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:11:31] [Server thread/INFO]: Preparing level "world"
-[22:11:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:11:36] [Worker-Main-1/INFO]: Preparing spawn area: 8%
-[22:11:36] [Server thread/INFO]: Time elapsed: 4561 ms
-[22:11:36] [Server thread/INFO]: Done (5.170s)! For help, type "help"
-[22:11:36] [Server thread/INFO]: [REI] ****************************************
-[22:11:36] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[22:11:36] [Server thread/INFO]: [REI] Plugins (4):
-[22:11:36] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[22:11:36] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[22:11:36] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[22:11:36] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[22:11:36] [Server thread/INFO]: [REI] ****************************************
-[22:11:36] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.817 ms, totaling 88.12 ms.
-[22:11:36] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[22:11:36] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[22:11:36] [Server thread/INFO]: [REI] Plugins (4):
-[22:11:36] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[22:11:36] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[22:11:36] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[22:11:36] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[22:11:36] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[22:11:37] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.257 ms, totaling 132.3 ms.
-[22:11:37] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22:11:37] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[22:12:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:13:13] [Server thread/INFO]: anatsu660[/192.168.194.31:32984] logged in with entity id 105 at (-0.4831812964759034, 72.0, 42.09346028046689)
-[22:13:14] [Server thread/INFO]: Loading config from file...
-[22:13:14] [Server thread/INFO]: anatsu660 joined the game
+[23:17:58] [main/INFO]: Applying default options... (YOSBR)
+[23:17:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/k-boomcraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:17:58] [main/INFO]: Compatibility level set to JAVA_21
+[23:17:59] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:17:59] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:17:59] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[23:17:59] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[23:17:59] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:17:59] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:18:00] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
+[23:18:00] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
+[23:18:00] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[23:18:00] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[23:18:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.4).
+[23:18:11] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[23:18:11] [main/INFO]: Loading Collective version 8.4.
+[23:18:11] [main/INFO]: Initialized entity types.
+[23:18:11] [main/INFO]: Register Custom Payloads for Networking.
+[23:18:11] [main/INFO]: Enabled 58 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-82263, MC-84661, MC-88371, MC-89146, MC-93018, MC-94054, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-123450, MC-123605, MC-129909, MC-132878, MC-134110, MC-136249, MC-139041, MC-147659, MC-147784, MC-155509, MC-159283, MC-160095, MC-168573, MC-170462, MC-176806, MC-177831, MC-179072, MC-183990, MC-187100, MC-199467, MC-200418, MC-201374, MC-202637, MC-206922, MC-215530, MC-219981, MC-221257, MC-223153, MC-224729, MC-226961, MC-227008, MC-227337, MC-231743, MC-232869, MC-245394, MC-267125, MC-268617, MC-271899, MC-272431, MC-297837, MC-298066, MC-299115]
+[23:18:11] [main/INFO]: Successfully Debugify'd your game!
+[23:18:11] [main/INFO]: Constructing components for easymagic:common
+[23:18:12] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[23:18:12] [main/INFO]: Loaded config farmersdelight-common.json
+[23:18:12] [main/INFO]: Reflections took 274 ms to scan 2 urls, producing 12 keys and 155 values
+[23:18:13] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[23:18:14] [main/INFO]: Constructing components for leavesbegone:common
+[23:18:15] [main/INFO]: Definitely not up to no good
+[23:18:15] [main/INFO]: register Mod Nether Ores Blocksnether_ores_reborn
+[23:18:15] [main/INFO]: Registering Ruby Items for nether_ores_reborn
+[23:18:15] [main/INFO]: [STDOUT]: All 40 have been set properly
+[23:18:15] [main/INFO]: Registering Item Groups for onlyhammersandexcavators
+[23:18:15] [main/INFO]: I bet DeetHunter will never see this one!
+[23:18:15] [main/INFO]: [PatPat]: PatPat Initialized
+[23:18:15] [main/INFO]: Constructing components for puzzleslib:common
+[23:18:15] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
+[23:18:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[23:18:15] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[23:18:15] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[23:18:15] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[23:18:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[23:18:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[23:18:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[23:18:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[23:18:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[23:18:15] [main/INFO]: Registering blocks for storagedelight
+[23:18:15] [main/INFO]: Registering block entity types for storagedelight
+[23:18:15] [main/INFO]: Registering furniture fuels for storagedelight
+[23:18:15] [main/INFO]: Registering creative mode tab for storagedelight
+[23:18:15] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[23:18:15] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[23:18:15] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[23:18:15] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[23:18:15] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[23:18:15] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[23:18:15] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[23:18:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[23:18:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[23:18:16] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[23:18:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[23:18:16] [main/INFO]: [PatPat/Dedicated]: Successfully loaded PatPat language files!
+[23:18:16] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[23:18:16] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[23:18:16] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:18:16] [main/ERROR]: Failed to start the minecraft server
+net.minecraft.class_5125$class_5126: /workspaces/k-boomcraft/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at knot/net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32$class_5143.<init>(class_32.java:374) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32.method_52236(class_32.java:353) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:140) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.3]
